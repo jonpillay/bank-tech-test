@@ -9,6 +9,8 @@ Have 100% test coverage with all tests passing
 To keep things clean, all data will be extrapolated from the transactions list in the Account model. There can be deposits and also withdrawals - these should be the only records that are kept and which determines the balance. I feel this is the cleanest way of doing this and allows for flexibility adding extra features. An interest function can be added, with reasonable ease.
 I am slightly questioning the decision to stringify the DateTime for transaction when the instance is initialised, although this does make printing easier, it strips the DateTime Obj of it's characteristics and removes the ability for comparison and so forth - the program does meet the spec as is taking the other path would have added unneeded complexity to the printer class and testing - the DateTime functionality could be added back in if needed.
 
+Please see excalidraw document in the base directory for more background (PillayJ_Bank_Test.png)
+
 ## To Run
 
 Install the NPM package from inside the main directory
